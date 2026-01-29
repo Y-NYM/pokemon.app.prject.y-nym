@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: #5D535E;
+    padding-top: 20px;
+    
+}
+
+body {
+    background-color: #E1DFA2;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+
+/* КАРТОЧКИ ПОКЕМОНА */
+#content-pokemon {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+
+.poke-box {
+    background: #A2BE95;
+    border: 2px solid #333;
+    border-radius: 15px;
+    padding: 15px;
+    transition: transform 0.2s;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.poke-box:hover {
+    transform: translateY(-5px);
+}
+
+.poke-img {
+    width: 120px;
+    height: 120px;
+    object-fit: contain;
+}
+
+.poke-name {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.poke-id {
+    color: #333;
+    font-weight: bold;
+    margin: 0;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 2px;
+    color: white;
+    background-color: #555; 
+    cursor: pointer;
+}
+
+
+.btn-grass { background-color: #78C850; }
+.btn-fire { background-color: #F08030; }
+.btn-water { background-color: #6890F0; }
+.btn-poison { background-color: #A040A0; }
+.btn-electric { background-color: #F8D030; }
+.btn-psychic { background-color: #F85888; }
+.btn-ice { background-color: #98D8D8; }
+.btn-dragon { background-color: #7038F8; }
+.btn-fairy { background-color: #EE99AC; }
+.btn-normal { background-color: #A8A878; }  
+.btn-fighting { background-color: #C03028; }
+.btn-flying { background-color: #A890F0; }
+.btn-ground { background-color: #E0C068; }
+.btn-rock { background-color: #B8A038; }
+.btn-bug { background-color: #A8B820; }
+.btn-ghost { background-color: #705898; }
